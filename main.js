@@ -1,16 +1,18 @@
 var forceUsers = [
-  "DarthVader",
-  "ObiWanKenobi",
+  "Darth Vader",
+  "Obi Wan Kenobi",
   "LukeSkywalker",
   "Yoda"
 ]
 
 function longest(stringArray) {
-  var longestWord = 0
+  var length = 0
+  var longestString
   for (var i = 0; i < stringArray.length; i++) {
-    if(stringArray[i].length > longestWord) {
-      longestWord = stringArray[i]
+    if(stringArray[i].length > length) {
+      length = stringArray[i].length
+      longestString = stringArray[i]
     }
   }
-  return longestWord
+  return longestString
 }
