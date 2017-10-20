@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 var array1 = [
   'Apple',
   'Banana'
