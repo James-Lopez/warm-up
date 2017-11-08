@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #253138;
+}
+
+#content {
+  width: 75vw;
+  height: 100%;
+  float: left;
+  border-right: 1px solid #808180;
+  background-color: #f9f9f9;
+}
+
+#sidebar {
+  border-left: #808180 1px solid;
+  width: 25vw;
+  height: 100%;
+  float: right;
+  background-color: #f9faf9;
+}
+
+#main {
+  background-color: #f9faf9;
+  position: relative;
+}
+
+.navigation {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.navigation div {
+  display: inline-block;
+  padding: 1rem 0.9rem;
+  color: #00ac9f;
+}
+
+#header img {
+  min-width: 100%;
+  max-height: 24rem;
+}
+
+.headshot {
+  position: relative;
+  float: left;
+  width: calc(92% / 3);
+  min-height: 33.5rem;
+  margin-left: 2%;
+  margin-right: 0;
+  margin-top: 2%;
+}
+
+.un {
+  max-width: 23.985rem;
+  background: url(images/brook-cagle.png);
+}
+
+.duex {
+  max-width: 23.985rem;
+  background: url(images/jake-young.png);
+}
+
+.trois {
+  max-width: 23.985rem;
+  background: url(images/allef-vinicius.png);
+}
+
+.employee-data {
+  position: absolute;
+  color: #f9f9f9;
+  right: 0;
+  bottom: 21%;
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1.1;
+  text-align: right;
+}
+
+.employee-data span {
+  font-size: 2.7rem;
+}
+
+.employee-data h5 {
+  font-size: 1.2rem;
+  font-weight: lighter;
+  text-align: right;
+  line-height: 0;
+}
+
+.employee-data p {
+  text-align: left;
+  padding: 24% 3% 5% 7%;
+  line-height: 1.7;
+  font-size: 0.82rem;
+  font-weight: lighter;
+}
+
+.selected {
+  top: 16%;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.65);
+}
+
+.learn-more {
+  display: inline-block;
+  padding-bottom: 1rem;
+  font-size: 1.3rem;
+  margin: 1rem 0.7rem;
+  color: #009487;
+  text-decoration: underline;
+  background-color: #f9faf9;
+  min-width: 100%;
+}
+
+#footer-main {
+  position: relative;
+  padding-top: 1.5rem;
+  font-weight: 200;
+  background-color: #253138;
+  color: #c4c7cb;
+  text-align: center;
+}
+
+#footer-main .social-buttons {
+  position: absolute;
+  display: inline-block;
+  right: 1rem;
+  top: 1rem;
+  background-color: #253138;
+  color: #009487;
+  font-size: 1.7rem;
+}
+
+#head {
+  position: relative;
+}
+
+#head img {
+  padding-left: 15%;
+}
+
+#head i {
+  position: absolute;
+  color: #009487;
+  font-size: 2rem;
+  top: 50%;
+  right: 5%;
+  transform: translateY(-50%);
+}
+
+#sidebar-navigation ul {
+  padding-left: 0;
+}
+
+#sidebar-navigation li {
+  padding: 4.5% 0;
+  color: #253138;
+  text-align: center;
+  list-style: none;
+  border-bottom: 1px solid #808180;
+}
+
+#sidebar-navigation .tabbed {
+  color: #009487;
+  background-color: #282626;
+}
+
+#sidebar-catalog .headshot {
+  display: inline-block;
+  width: 91%;
+  margin: 0 6% 6%;
+}
+
+#sidebar .learn-more {
+  margin: 0;
+  margin-left: 0.7rem;
+}
+
+#sidebar-footer {
+  font-size: 0.75rem;
+  min-height: 6.5rem;
+  text-align: center;
+  background-color: #253138;
+  color: #c4c7cb;
+  padding: 6% 0;
+}
+
+#sidebar-footer .social-buttons {
+  font-size: 1.2rem;
+  padding-top: 4%;
+  color: #009487;
+}
