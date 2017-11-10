@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #253138;
+}
