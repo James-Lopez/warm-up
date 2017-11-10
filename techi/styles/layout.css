@@ -1,0 +1,42 @@
+#content {
+  width: 75vw;
+  height: 100%;
+  float: left;
+  border-right: 1px solid #808180;
+  background-color: #f9f9f9;
+}
+
+#sidebar {
+  border-left: #808180 1px solid;
+  width: 25vw;
+  height: 100%;
+  float: right;
+  background-color: #f9faf9;
+}
+
+#main {
+  background-color: #f9faf9;
+  position: relative;
+}
+
+#footer-main {
+  position: relative;
+  padding-top: 1.5rem;
+  font-weight: 200;
+  background-color: #253138;
+  color: #c4c7cb;
+  text-align: center;
+}
+
+#head {
+  position: relative;
+}
+
+#sidebar-footer {
+  font-size: 0.75rem;
+  min-height: 6.5rem;
+  text-align: center;
+  background-color: #253138;
+  color: #c4c7cb;
+  padding: 6% 0;
+}

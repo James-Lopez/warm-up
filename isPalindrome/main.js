@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 function isPalindrome(string) {
-  return string == string.split('').reverse().join('')
+  return string === string.split('').reverse().join('')
 }
