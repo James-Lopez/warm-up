@@ -1,5 +1,3 @@
-// imageFolder: 'https://techi.envivent.com/employees/'
-
 Promise.all([
   fetch('https://techi.envivent.com/names.json'),
   fetch('https://techi.envivent.com/description.json'),
@@ -57,9 +55,9 @@ const render = item => {
   const $employee = document.createElement('div')
   $employee.setAttribute('class', 'employee-data')
   const $name = document.createElement('h1')
-  $name.textContent = `${item.first_name} ${item.last_name}`
+  $name.textContent = `${item.first_name.toUpperCase()} ${item.last_name.toUpperCase()}`
   const $title = document.createElement('h5')
-  $title.textContent = item.title
+  $title.textContent = item.title.toLowerCase()
   const $info = document.createElement('p')
   $info.setAttribute('class', 'hidden')
   $info.textContent = item.description
